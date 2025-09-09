@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  GeorgRinger\SfeventmgtRedirectSlugChange\:
+    resource: '../Classes/*'
+
+  GeorgRinger\SfeventmgtRedirectSlugChange\Hooks\DataHandlerSlugUpdateHook:
+    public: true

@@ -1,0 +1,37 @@
+{
+    "name": "georgringer/sfeventmgt-redirect-slug-change",
+    "type": "typo3-cms-extension",
+    "description": "Generate redirect if the slug changes for events of EXT:sf_event_mgt",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "sf_event_mgt",
+		"redirect",
+		"seo",
+		"slug"
+    ],
+    "authors": [
+        {
+            "name": "Georg Ringer",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^13.4",
+        "typo3/cms-redirects": "^13.4",
+        "derhansen/sf_event_mgt": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgRinger\\SfeventmgtRedirectSlugChange\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "sfeventmgt_redirect_slug_change"
+        }
+    }
+}
